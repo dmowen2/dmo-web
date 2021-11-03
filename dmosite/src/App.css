@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Merm;
+  src: url('../src/components/Fonts/Mermaid1001.ttf')
+}
+
+
+*{
+
+
+  font-family: Merm;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
