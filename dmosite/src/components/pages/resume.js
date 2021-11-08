@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Signup = () => {
+const Resume = () => {
     return (
         <div>
 
 
             <div className='page-header'>
                 <div className = 'page-header-content'>
-                    <h1>Sign Up</h1>
+                    <h1>Resume</h1>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Signup
+export default Resume

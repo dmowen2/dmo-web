@@ -11,10 +11,13 @@ const Navbar = () => {
             </NavLink>
             <Bars className = "topBars"/>
             <NavMenu className = "topNavMenu">
+            <NavLink to="/blog" activeStyle className=".topNavLink">
+                    Blog
+                </NavLink>
                 <NavLink to="/about" activeStyle className=".topNavLink">
                     About Me
                 </NavLink>
-                <NavLink to="/sign-up" activeStyle className=".topNavLink">
+                <NavLink to="/resume" activeStyle className=".topNavLink">
                     Resume
                 </NavLink>
             </NavMenu>
