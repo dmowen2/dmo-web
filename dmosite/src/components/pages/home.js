@@ -19,10 +19,10 @@ const Home = () => {
 
             <div className='page-title-box'>
             <h1>Hello, I'm Derian</h1>
+            </div>
             <div className='statement-text-box'>
             <p> I am studying computer science at Trinity University in San Antonio Texas. I am an aspiring software developer with interests in both front end and back end development
             </p>
-            </div>
             </div>
 
 

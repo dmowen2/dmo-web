@@ -10,12 +10,11 @@ const Resume = () => {
                 <div className = 'page-header-content'>
                     <h1>Resume</h1>
                 </div>
-
-                <div className='resume_div'>
+            </div>
+            <div className='resume_div'>
                     <iframe height='600vw' src={resume} width="100%">
                     </iframe>
                 </div>
-            </div>
         </div>
     )
 }

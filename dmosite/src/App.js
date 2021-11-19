@@ -8,9 +8,12 @@ import Resume from './components/pages/resume';
 import Bookrec from './components/pages/bookrec';
 import Projects from './components/pages/projects';
 import Contact from './components/pages/contact';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
+    <div className='page-container'>
+    <div className='content-wrapper'>
     <Router>
       <Navbar />
       <Switch>
@@ -24,7 +27,11 @@ function App() {
         <Route path='/contact' exact component={Contact}/>  
 
       </Switch>
+
     </Router>
+    </div>
+    <Footer />
+    </div>
   );
 }
 

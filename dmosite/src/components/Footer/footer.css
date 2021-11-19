@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Merm;
+    src: url('../Fonts/Mermaid1001.ttf')
+    format('truetype')
+    }
+  
+
+
+
+.main-footer{
+    color: white;
+    background-color: black;
+    padding-top: .5rem;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: .5rem;
+    width: 100%;
+    height: 2.5rem;
+}
+.footer-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer-bottom {
+    text-align: center;
+}
