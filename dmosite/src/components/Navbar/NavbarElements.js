@@ -9,6 +9,7 @@ export const Nav = styled.nav`
   background: #000;
   height: 50px;
   outline: 1px solid grey;
+  width: auto;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);

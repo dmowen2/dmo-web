@@ -1,6 +1,6 @@
 import React from 'react'
 import './pages.css'
-import dmopic from '../images/websiteprofilepic.png'
+import dmopic from '../resources/websiteprofilepic.png'
 
 const About = () => {
     return (
