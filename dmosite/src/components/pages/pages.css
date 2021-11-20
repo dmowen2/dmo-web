@@ -16,6 +16,7 @@
 .page-header {
   width: auto;
   position: relative;
+  min-width: 1775px;
   height: 75px;
 
 }
@@ -23,11 +24,11 @@
 .page-header-content {
   position: static;
   height: 50px;
+  width: auto;
   background: #fff;
   white-space: nowrap;
-  padding: 0 1rem;
   text-align: center;
-  padding-right: 57rem;
+  padding-right: 93.5vh;
   padding-top: 5px;
   color: #000;
   font-family: Merm;
@@ -112,13 +113,12 @@
   width: auto;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 800px 800px;
   grid-template-rows: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 1rem;
   column-gap: 1rem;
   padding-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 15vh;
 }
 
 
@@ -161,8 +161,10 @@
   .heading-img {
       max-width: 100%;
       height: auto;
-      width: auto\9; /* ie8 */
-
+      width: auto; /* ie8 */
+      border: #000;
+      border-width: 5px;
+      border-style: solid;
   
     }
 

@@ -10,12 +10,10 @@ const Home = () => {
             </div>
             </div>
             <div className='page-title-box'>
-            <h1>Welcome to Derian's Website</h1>
+            <h1>Welcome</h1>
             </div>
-            
-            <div className ='heading-img'>        
+               
             <img src = {homeheadimg} className='heading-img'/>
-            </div>
 
             <div className='page-title-box'>
             <h1>Hello, I'm Derian</h1>
