@@ -5,12 +5,10 @@ import "./footer.css"
 const Footer = () => {
     return (
         <div className='main-footer'>
-            <div className='container'>
-                <div className="row">
-                    <p className="footer-bottom">
-                        Website by Derian Mowen
-                    </p>
-                </div>
+            <div className='footer-link-box'>
+            </div>
+            <div className='footer-bottom-container'>
+                <p className="footer-bottom">Website by Derian Mowen</p>
             </div>
         </div>
     )

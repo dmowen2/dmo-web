@@ -8,7 +8,6 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   background: #000;
   height: 50px;
-  min-width: 1775px;
   outline: 1px solid grey;
   width: auto;
   display: flex;

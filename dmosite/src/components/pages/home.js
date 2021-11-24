@@ -15,14 +15,17 @@ const Home = () => {
                
             <img src = {homeheadimg} className='heading-img'/>
 
-            <div className='page-title-box'>
-            <h1>Hello, I'm Derian!</h1>
+            <div className='hello-box'>
+                <h1>Hello, I'm Derian</h1>
             </div>
-            <div className='statement-text-box'>
-            <p> I am a student at Trinity University in San Antonio Texas and I am currently majoring in Computer Science. I am an aspiring software developer with interests in both front-end and back-end development.            </p>
+            <div className='home-text-box'>
+            <p> Welcome to my personal website and blog dedicated to documenting my experiences working on my programming projects and showcasing my individual projects to any one who might be interested. </p>
             </div>
-
-
+            <div className='guide-center'>
+                <div className='guide-box'>
+                    <h1>Page Guide</h1>
+                </div>
+            </div>
         </div>
     )
 }

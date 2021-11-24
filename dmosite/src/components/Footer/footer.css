@@ -9,12 +9,23 @@
 
 .main-footer{
     color: white;
-    background-color: black;
-    padding-top: .5rem;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
     bottom: 0;
     position: absolute;
-    padding-bottom: .5rem;
     width: 100%;
+    height: 15rem;
+}
+.footer-link-box{
+    height: 12.5rem;
+    
+}
+
+.footer-bottom-container {
+    background-color: black;
+    padding-top: .5rem;
     height: 2.5rem;
 }
 .footer-row {
