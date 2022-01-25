@@ -61,6 +61,8 @@ const Bookrec = () => {
                     </div>
                 </div>
             </div>
+            <div className='bottom-spacer'>
+            </div>
         </div>
 
         

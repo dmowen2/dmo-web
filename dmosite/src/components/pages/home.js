@@ -19,14 +19,12 @@ const Home = () => {
                 <h1>Hello, I'm Derian</h1>
             </div>
             <div className='home-text-box'>
-            <p> Welcome to my personal website and blog dedicated to documenting my experiences working on my programming projects and showcasing my individual projects to any one who might be interested. </p>
+            <p> Welcome to my personal website and blog dedicated to documenting my experiences working on my programming projects and documenting anything I happen to learn withi Data Science and Computer Science. </p>
             </div>
-            <div className='guide-center'>
-                <div className='guide-box'>
-                    <h1>Page Guide</h1>
-                </div>
+            <div className='bottom-spacer'>
             </div>
         </div>
+        
     )
 }
 
